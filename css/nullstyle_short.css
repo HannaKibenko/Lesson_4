@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@100;400;700&family=Satisfy&display=swap");
+
+/* Подключаю файлы со шрифтами */
+
+@font-face {
+	font-family: "Rapsodie";
+	src: url("../fonts/font_R/Rapsodie-Regular.eot");
+	src: local("Rapsodie-Regular"), url("../fonts/font_R/Rapsodie-Regular.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/font_R/Rapsodie-Regular.woff2") format("woff2"),
+		url("../fonts/font_R/Rapsodie-Regular.woff") format("woff"),
+		url("../fonts/font_R/Rapsodie-Regular.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Rapsodie";
+	src: url("../fonts/font_R/Rapsodie-BoldItalic.eot");
+	src: local("Rapsodie-BoldItalic"), url("../fonts/font_R/Rapsodie-BoldItalic.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/font_R/Rapsodie-BoldItalic.woff2") format("woff2"),
+		url("../fonts/font_R/Rapsodie-BoldItalic.woff") format("woff"),
+		url("../fonts/font_R/Rapsodie-BoldItalic.ttf") format("truetype");
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Rapsodie Italic Reverse";
+	src: url("../fonts/font_R/Rapsodie-ItalicReverse.eot");
+	src: local("Rapsodie-ItalicReverse"),
+		url("../fonts/font_R/Rapsodie-ItalicReverse.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/font_R/Rapsodie-ItalicReverse.woff2") format("woff2"),
+		url("../fonts/font_R/Rapsodie-ItalicReverse.woff") format("woff"),
+		url("../fonts/font_R/Rapsodie-ItalicReverse.ttf") format("truetype");
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Rapsodie";
+	src: url("../fonts/font_R/Rapsodie-SemiBold.eot");
+	src: local("Rapsodie SemiBold"), local("Rapsodie-SemiBold"),
+		url("../fonts/font_R/Rapsodie-SemiBold.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/font_R/Rapsodie-SemiBold.woff2") format("woff2"),
+		url("../fonts/font_R/Rapsodie-SemiBold.woff") format("woff"),
+		url("../fonts/font_R/Rapsodie-SemiBold.ttf") format("truetype");
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Rapsodie";
+	src: url("../fonts/font_R/Rapsodie-Italic.eot");
+	src: local("Rapsodie-Italic"), url("../fonts/font_R/Rapsodie-Italic.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/font_R/Rapsodie-Italic.woff2") format("woff2"),
+		url("../fonts/font_R/Rapsodie-Italic.woff") format("woff"),
+		url("../fonts/font_R/Rapsodie-Italic.ttf") format("truetype");
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Rapsodie";
+	src: url("../fonts/font_R/Rapsodie-Bold.eot");
+	src: local("Rapsodie-Bold"), url("../fonts/font_R/Rapsodie-Bold.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/font_R/Rapsodie-Bold.woff2") format("woff2"),
+		url("../fonts/font_R/Rapsodie-Bold.woff") format("woff"),
+		url("../fonts/font_R/Rapsodie-Bold.ttf") format("truetype");
+	font-weight: bold;
+	font-style: normal;
+}
+
+/* Подключаю файлы со шрифтами */
+
+@font-face {
+	font-family: "Tuesday Night";
+	src: url("../fonts/font/TuesdayNight-Regular.eot");
+	src: local("Tuesday Night Regular"), local("TuesdayNight-Regular"),
+		url("../fonts/font/TuesdayNight-Regular.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/font/TuesdayNight-Regular.woff2") format("woff2"),
+		url("../fonts/font/TuesdayNight-Regular.woff") format("woff"),
+		url("../fonts/font/TuesdayNight-Regular.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Подключаю файлы со шрифтами */
+
+@font-face {
+	font-family: "Lora";
+	src: url("../fonts/Lora-Bold.woff2") format("woff2"), url("../fonts/Lora-Bold.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Lora";
+	src: url("../fonts/Lora-Regular.woff2") format("woff2"), url("../fonts/Lora-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Lora";
+	src: url("../fonts/Lora-Italic.woff2") format("woff2"), url("../fonts/Lora-Italic.woff") format("woff");
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+
+*,
+* ::before,
+* ::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+
+body {
+	font-family: "Lora";
+	font-size: 20px;
+}
+.header {
+	text-transform: uppercase;
+}
+.menu,
+.phone {
+	font-family: "Rapsodie";
+}
+.logo {
+	font-family: "Tuesday Night";
+	font-weight: 700;
+	text-align: center;
+	letter-spacing: 10px;
+	color: rgb(247, 231, 6);
+	text-shadow: 1px 2px 2px rgb(124, 248, 0), 5px 10px 10px rgb(0, 0, 0);
+}
+
+.phone {
+	white-space: nowrap;
+}
+
+a {
+	color: #db9121;
+	text-decoration: underline;
+	font-weight: 700;
+}
+.main {
+	text-align: justify;
+}
+.title {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 50px;
+	letter-spacing: 20px;
+	font-weight: 700;
+	color: rgb(45, 105, 45);
+	text-shadow: 5px 5px 5px rgb(182, 167, 83);
+	line-height: 180%;
+}
+.block {
+	font-family: "Lora";
+	text-indent: 50px;
+}
+
+.block span {
+	color: red;
+}
+
+.block__list {
+}
+.block ul {
+	color: rgb(23, 129, 161);
+	text-indent: 150px;
+}
+.block > ul {
+	color: rgb(23, 22, 70);
+	text-indent: 100px;
+}
+
+span.line__through {
+	text-decoration: line-through;
+	color: black;
+}
+
+.right {
+	font-family: "Rapsodie";
+	font-size: 30px;
+	text-align: right;
+}
+.bottom {
+	font-family: Montserrat;
+	font-size: 30px;
+	text-align: center;
+	white-space: nowrap;
+	line-height: 300%;
+	font-style: italic;
+}
+
+.footer {
+}
